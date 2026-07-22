@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dao Tuan Dat Vo | AI Research</title>
+<meta name="description" content="Dao Tuan Dat Vo — AI Research focused on deep learning architectures and computer vision, with deep work in model optimization, Edge AI and LLM systems.">
+<meta name="keywords" content="AI Research, Deep Learning, Computer Vision, Knowledge Distillation, Model Optimization, Edge AI, Sign Language Recognition, IEEE Access">
+<meta name="author" content="Dao Tuan Dat Vo">
+<meta name="theme-color" content="#F5B944">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dao Tuan Dat Vo | AI Research">
+<meta property="og:description" content="Deep learning architectures, computer vision, and efficient AI for edge devices. IEEE Access published researcher.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <nav class="nav-inner" aria-label="Main navigation">
+    <a href="#home" class="brand">
+      <span class="brand-badge">D</span>
+      <span class="brand-text">TUANDAT<span class="brand-dot">.</span>AI</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#work">Research</a></li>
+      <li><a href="#publications">Papers</a></li>
+      <li><a href="#services">Expertise</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#about">Beyond</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="#contact" class="btn btn-pink btn-sm">Let's Talk!</a>
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle light and dark theme" title="Toggle theme">
+        <span id="themeIcon">🌙</span>
+      </button>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="scroll-progress" id="scrollProgress"></div>
+</header>
+
+<main id="main">
+
+<!-- ============ HERO (BENTO) ============ -->
+<section class="section hero" id="home">
+  <div class="container">
+    <div class="bento">
+
+      <div class="card bento-main reveal">
+        <div class="status-pill"><span class="dot"></span> Open to AI Research &amp; Engineer roles</div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="hl hl-yellow">Dat!</span><br>
+          I research <span class="hl hl-pink">how models see.</span>
+        </h1>
+        <p class="hero-desc">
+          I'm an <strong>AI Researcher</strong> working on modern deep learning architectures for
+          <strong>computer vision</strong> — skeleton-based sign language and human action recognition.
+          From there I go deeper into <strong>efficient AI</strong>: knowledge distillation, model
+          optimization, and real-time inference on resource-constrained <strong>edge devices</strong>.
+          <strong>LLM systems</strong> are a secondary interest I bring in when a problem calls for reasoning.
+        </p>
+        <div class="hero-btns">
+          <a href="#work" class="btn btn-pink">View Research</a>
+          <a href="#contact" class="btn btn-yellow">Contact Me</a>
+          <a href="assets/CV_DAT.pdf" class="btn btn-ghost" download>Download CV ↓</a>
+        </div>
+      </div>
+
+      <div class="card bento-avatar reveal" data-delay="1">
+        <div class="avatar-crown">👑</div>
+        <div class="avatar-ring">
+          <img src="images/avatar.jpg" alt="Portrait of Dao Tuan Dat Vo" class="avatar-img"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+          <div class="avatar-fallback">DAT</div>
+        </div>
+        <div class="avatar-name">Dao Tuan Dat Vo</div>
+        <div class="avatar-role">AI Research</div>
+        <span class="sticker sticker-yellow">Vision &amp; Edge AI ⚡</span>
+      </div>
+
+      <div class="card bento-blue reveal" data-delay="2">
+        <div class="card-eyebrow">Working on <span>🔬</span></div>
+        <p class="card-body-lg">AI Research at ISLAB</p>
+        <p class="card-sub">Intelligent Systems Lab · HCMUTE</p>
+        <div class="typing-line"><span class="dot-live"></span><span id="typingText"></span><span class="caret">|</span></div>
+        <div class="card-period">Sept 2024 — Present</div>
+      </div>
+
+      <div class="card bento-yellow reveal" data-delay="3">
+        <div class="card-eyebrow">Publication <span>📄</span></div>
+        <p class="card-body-lg">MAG-KD — IEEE Access</p>
+        <p class="card-sub">Q1 JCR · IF 4.2 · Vol. 14 · 2026</p>
+        <a href="#publications" class="card-link">See all 5 papers →</a>
+      </div>
+
+      <div class="card bento-purple bento-wide reveal" data-delay="4">
+        <div class="card-eyebrow">Philosophy <span>💡</span></div>
+        <p class="quote quote-lg">"A model only has value when it runs on real hardware, in real time."</p>
+        <div class="quote-by">Dao Tuan Dat Vo • 2026</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ RESEARCH & PROJECTS ============ -->
+<section class="section" id="work">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-pink">Portfolio</span>
+      <h2 class="sec-title">Research &amp; Projects</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+      <p class="sec-sub">Undergraduate research projects · Mar 2024 – Present<br>
+      <em>Research interests: Sign Language Recognition, Computer Vision, Edge AI</em></p>
+    </div>
+
+    <div class="grid-3 project-grid">
+
+      <article class="card project reveal">
+        <div class="project-top">
+          <span class="project-cat">Bachelor's Thesis</span>
+          <span class="project-year score">9.4 / 10</span>
+        </div>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube-nocookie.com/embed/cvjWmPXr3y8?start=4"
+                  title="Vietnamese Sign Language Learning Platform demo"
+                  loading="lazy" allowfullscreen
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <h3 class="project-title">Vietnamese Sign Language Learning Platform</h3>
+        <p class="project-desc">
+          Deep learning models for an intelligent web platform covering Vietnamese Sign Language
+          learning, assessment, and AI-assisted tutoring. Combines interactive learning modules,
+          automated assessment, and an Agentic RAG chatbot powered by GPT APIs. Several international
+          papers came out of this project.
+        </p>
+        <div class="chips">
+          <span class="chip">PyTorch</span><span class="chip">Agentic RAG</span><span class="chip">GPT API</span><span class="chip">Web Platform</span>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-delay="1">
+        <div class="project-top">
+          <span class="project-cat">Computer Vision</span>
+          <span class="project-year">2024</span>
+        </div>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube-nocookie.com/embed/EXLlC47UvsA?start=4"
+                  title="Hand Gesture PC Control demo"
+                  loading="lazy" allowfullscreen
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <h3 class="project-title">Hand Gesture Control PC</h3>
+        <p class="project-desc">
+          A vision-based hand gesture control system built with MediaPipe and OpenCV. Handles
+          mouse control, volume adjustment, brightness control, and screen capture — no extra
+          hardware, just a webcam.
+        </p>
+        <div class="chips">
+          <span class="chip">MediaPipe</span><span class="chip">OpenCV</span><span class="chip">Python</span><span class="chip">Real-time</span>
+        </div>
+      </article>
+
+      <article class="card project reveal" data-delay="2">
+        <div class="project-top">
+          <span class="project-cat">Embedded &amp; IoT</span>
+          <span class="project-year">2024</span>
+        </div>
+        <div class="video-wrap">
+          <iframe src="https://www.youtube-nocookie.com/embed/Y7zXS3VkeWY?start=22"
+                  title="ESP32 Smart Home System demo"
+                  loading="lazy" allowfullscreen
+                  allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+        </div>
+        <h3 class="project-title">Smart Home System</h3>
+        <p class="project-desc">
+          An ESP32-based smart home system for environmental monitoring and real-time remote
+          appliance control through a web application.
+        </p>
+        <div class="chips">
+          <span class="chip">ESP32</span><span class="chip">IoT</span><span class="chip">C/C++</span><span class="chip">Web App</span>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PUBLICATIONS ============ -->
+<section class="section" id="publications">
+  <div class="container narrow">
+    <div class="sec-head reveal">
+      <span class="tag tag-yellow">Publications</span>
+      <h2 class="sec-title">Papers</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <h4 class="pub-group">Journal</h4>
+    <div class="card pub featured reveal">
+      <div class="pub-row">
+        <span class="pub-num">1</span>
+        <div class="pub-body">
+          <div class="pub-tags">
+            <span class="sticker sticker-green">Published</span>
+            <span class="sticker sticker-yellow">IEEE Access</span>
+            <span class="sticker sticker-blue">Q1 · IF 4.2</span>
+          </div>
+          <h3 class="pub-title">MAG-KD: Mask-Guided Adaptive Gating Knowledge Distillation for Skeleton-Based Sign Language Recognition on Edge Devices</h3>
+          <p class="pub-authors"><strong>Dao Tuan Dat Vo</strong>, Van Dang Nguyen, Tran Hao Minh Nguyen, Minh Huan Vo</p>
+          <p class="pub-venue"><em>IEEE Access</em>, SCI(E), Q1 JCR, vol. 14, pp. 54761–54775, 2026.</p>
+          <a href="https://ieeexplore.ieee.org/document/11474809" target="_blank" rel="noopener" class="pub-doi">
+            DOI: 10.1109/ACCESS.2026.3681176 →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <h4 class="pub-group">International Conferences</h4>
+    <div class="pub-list">
+
+      <div class="card pub reveal">
+        <div class="pub-row">
+          <span class="pub-num">2</span>
+          <div class="pub-body">
+            <span class="sticker sticker-pink">Accepted</span>
+            <h3 class="pub-title sm">MicroKWS-Net: An Ultra-Lightweight Attention-Guided CNN for Keyword Spotting on Edge Devices via Knowledge Distillation</h3>
+            <p class="pub-authors"><strong>Dao Tuan Dat Vo</strong>, Minh Huan Vo, et al.</p>
+            <p class="pub-venue"><em>Proceedings of the 8th GTSD</em>, Ho Chi Minh City, Vietnam, 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub reveal" data-delay="1">
+        <div class="pub-row">
+          <span class="pub-num">3</span>
+          <div class="pub-body">
+            <span class="sticker sticker-pink">Accepted</span>
+            <h3 class="pub-title sm">From Multi-View RGB-D to Single-View: Fusion and Distillation for Efficient Sign Language Recognition</h3>
+            <p class="pub-authors"><strong>Dao Tuan Dat Vo</strong>, Nghe-Nhan Truong, Dat Nguyen-Lam Vy, Van Dang Nguyen, My-Ha Le</p>
+            <p class="pub-venue"><em>Proceedings of the 8th GTSD</em>, Ho Chi Minh City, Vietnam, 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub reveal" data-delay="2">
+        <div class="pub-row">
+          <span class="pub-num">4</span>
+          <div class="pub-body">
+            <span class="sticker sticker-pink">Accepted</span>
+            <h3 class="pub-title sm">Hybrid Agentic Architecture for Vietnamese Sign Language: Orchestrating RAG and Syntactic Restructuring</h3>
+            <p class="pub-authors">Dat Nguyen-Lam Vy, Nghe-Nhan Truong, Van Dang Nguyen, <strong>Dao Tuan Dat Vo</strong>, My-Ha Le</p>
+            <p class="pub-venue"><em>Proceedings of the 8th GTSD</em>, Ho Chi Minh City, Vietnam, 2026.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card pub reveal" data-delay="3">
+        <div class="pub-row">
+          <span class="pub-num">5</span>
+          <div class="pub-body">
+            <span class="sticker sticker-pink">Accepted</span>
+            <h3 class="pub-title sm">TKR-HMR: Tokenized Kinematic Representation for Human Mesh Recovery from Video</h3>
+            <p class="pub-authors">Van Dang Nguyen, Nghe-Nhan Truong, <strong>Dao Tuan Dat Vo</strong>, Dat Nguyen-Lam Vy, My-Ha Le</p>
+            <p class="pub-venue"><em>Proceedings of the 8th GTSD</em>, Ho Chi Minh City, Vietnam, 2026.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERTISE ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-blue">Expertise</span>
+      <h2 class="sec-title">What I Work On</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="grid-2">
+      <div class="card service reveal">
+        <div class="service-icon icon-pink">🧠</div>
+        <h3>Deep Learning Architectures</h3>
+        <p>Designing and training modern architectures for skeleton-based sign language and human action recognition. GCNs, attention mechanisms, and multimodal fusion.</p>
+        <div class="chips"><span class="chip">PyTorch</span><span class="chip">GCN</span><span class="chip">Attention</span><span class="chip">TensorFlow</span></div>
+      </div>
+
+      <div class="card service reveal" data-delay="1">
+        <div class="service-icon icon-purple">👁️</div>
+        <h3>Computer Vision</h3>
+        <p>Skeleton extraction, gesture recognition, RGB-D fusion, and human mesh recovery from video. Building vision systems that work outside the benchmark.</p>
+        <div class="chips"><span class="chip">OpenCV</span><span class="chip">MediaPipe</span><span class="chip">RGB-D</span><span class="chip">Pose Estimation</span></div>
+      </div>
+
+      <div class="card service reveal" data-delay="2">
+        <div class="service-icon icon-yellow">⚡</div>
+        <h3>Efficient AI &amp; Model Optimization</h3>
+        <p>Knowledge distillation, quantization, and architecture compression. Making heavy models small enough for real-time inference on constrained hardware.</p>
+        <div class="chips"><span class="chip">Knowledge Distillation</span><span class="chip">TensorRT</span><span class="chip">ONNX</span><span class="chip">FP16</span></div>
+      </div>
+
+      <div class="card service reveal" data-delay="3">
+        <div class="service-icon icon-green">🔌</div>
+        <h3>Edge AI Deployment</h3>
+        <p>End-to-end inference pipelines on Jetson Nano, ESP32 and Raspberry Pi. Hardware profiling for FPS, latency and power draw under real constraints.</p>
+        <div class="chips"><span class="chip">Jetson Nano</span><span class="chip">ESP32</span><span class="chip">Raspberry Pi</span><span class="chip">jtop</span></div>
+      </div>
+
+      <div class="card service reveal wide" data-delay="4">
+        <div class="service-icon icon-blue">🤖</div>
+        <h3>LLM &amp; Agentic Systems <span class="sec-badge">Secondary</span></h3>
+        <p>When a problem needs reasoning rather than perception, I bring in retrieval-augmented generation and agent workflows — as a supporting tool, not the main focus.</p>
+        <div class="chips"><span class="chip">LangGraph</span><span class="chip">Agentic RAG</span><span class="chip">GPT API</span><span class="chip">Qdrant</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="section" id="process">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-green">How I Work</span>
+      <h2 class="sec-title">Research Process</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <ol class="process-list">
+      <li class="process-item reveal">
+        <div class="step-num num-blue">1</div>
+        <div class="card process-card">
+          <h3>🔍 Survey the problem</h3>
+          <p>Read the literature, find the gap, and pin down real hardware constraints from day one.</p>
+        </div>
+      </li>
+      <li class="process-item reveal" data-delay="1">
+        <div class="step-num num-pink">2</div>
+        <div class="card process-card">
+          <h3>📊 Data &amp; baseline</h3>
+          <p>Build the data pipeline, standardize the benchmark, and reproduce baselines for a trustworthy reference point.</p>
+        </div>
+      </li>
+      <li class="process-item reveal" data-delay="2">
+        <div class="step-num num-yellow">3</div>
+        <div class="card process-card">
+          <h3>🧪 Design the architecture</h3>
+          <p>Propose the model, run ablation studies on every component, and tune based on numbers rather than intuition.</p>
+        </div>
+      </li>
+      <li class="process-item reveal" data-delay="3">
+        <div class="step-num num-purple">4</div>
+        <div class="card process-card">
+          <h3>🗜️ Compress &amp; optimize</h3>
+          <p>Distillation, FP16 quantization, and ONNX → TensorRT conversion to cut latency without losing accuracy.</p>
+        </div>
+      </li>
+      <li class="process-item reveal" data-delay="4">
+        <div class="step-num num-green">5</div>
+        <div class="card process-card">
+          <h3>🚀 Deploy &amp; measure</h3>
+          <p>Ship to the edge device, profile FPS and power draw, then write it up with reproducible results.</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE & RESEARCH ============ -->
+<section class="section" id="experience">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-purple">Journey</span>
+      <h2 class="sec-title">Experience &amp; Research</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <span class="tl-date">Sept 2024 – Present</span>
+        <div class="card tl-card">
+          <h3>Undergraduate Researcher</h3>
+          <span class="tl-org">@ Intelligent Systems Lab (ISLAB) — HCMUTE, Vietnam</span>
+          <ul class="tl-bullets">
+            <li>Conducted my bachelor's thesis under the supervision of Prof. My-Ha Le, focusing on deep learning for Vietnamese Sign Language Recognition.</li>
+            <li>Researched modern deep learning architectures for skeleton-based sign language and human action recognition.</li>
+            <li>Studied efficient AI techniques, including knowledge distillation and model optimization, for real-time inference on resource-constrained edge devices.</li>
+            <li>Collaborated with Prof. Minh-Huan Vo on Edge AI and efficient deep learning research.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" data-delay="1">
+        <span class="tl-date">Mar 2024 – Present</span>
+        <div class="card tl-card">
+          <h3>Undergraduate Research Projects</h3>
+          <span class="tl-org">@ Sign Language Recognition · Computer Vision · Edge AI</span>
+          <ul class="tl-bullets">
+            <li>Built a vision-based hand gesture control system for PC interaction using MediaPipe and OpenCV.</li>
+            <li>Developed an ESP32-based smart home system for environmental monitoring and remote appliance control.</li>
+            <li>Completed a bachelor's thesis (9.4/10) on deep learning models for a Vietnamese Sign Language learning platform.</li>
+          </ul>
+          <a href="#work" class="tl-link">See project demos →</a>
+        </div>
+      </div>
+
+      <div class="tl-item reveal" data-delay="2">
+        <span class="tl-date">2026</span>
+        <div class="card tl-card">
+          <h3>First-author publication in IEEE Access</h3>
+          <span class="tl-org">@ SCI(E), Q1 JCR, IF 4.2 — Published</span>
+          <ul class="tl-bullets">
+            <li>Proposed MAG-KD, a distillation framework with a mask-guided mechanism and adaptive gating for skeleton-based SLR on edge devices.</li>
+            <li>Co-authored four additional papers accepted at the 8th GTSD international conference.</li>
+          </ul>
+          <a href="#publications" class="tl-link">Read the papers →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section" id="education">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-blue">Education</span>
+      <h2 class="sec-title">Where I Studied</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="edu-wrap">
+      <div class="card edu reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-body">
+          <div class="edu-top">
+            <h3>B.Eng. Embedded Systems &amp; IoT</h3>
+            <span class="edu-date">Sept 2022 – Sept 2026</span>
+          </div>
+          <span class="edu-school">Ho Chi Minh City University of Technology and Engineering</span>
+          <p>GPA 8.16/10 (3.37/4.0). A foundation in embedded systems, signal processing and hardware
+             architecture — which is exactly why I understand what makes models slow on real devices.</p>
+          <div class="edu-thesis">
+            <span class="edu-thesis-label">Thesis · 9.4/10</span>
+            <p>Research and Development of Deep Learning Models for a Vietnamese Sign Language Learning Platform</p>
+          </div>
+          <div class="chips">
+            <span class="chip">Embedded Systems</span><span class="chip">IoT</span>
+            <span class="chip">Signal Processing</span><span class="chip">Hardware Architecture</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ AWARDS & CERTIFICATIONS ============ -->
+<section class="section" id="awards">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-yellow">Recognition</span>
+      <h2 class="sec-title">Awards &amp; Certifications</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="grid-3">
+      <div class="card award reveal">
+        <div class="award-icon aw-yellow">🏆</div>
+        <span class="award-rank">1st Prize</span>
+        <h3>October 20th Gift-Making Contest</h3>
+        <p>Designed and built a digital circuit for a themed display.</p>
+      </div>
+
+      <div class="card award reveal" data-delay="1">
+        <div class="award-icon aw-pink">🤖</div>
+        <span class="award-rank">Top 16</span>
+        <h3>Animal Robot Contest 2022 — Season 5</h3>
+        <p>Designed and programmed an Arduino-based autonomous robot.</p>
+      </div>
+
+      <div class="card award reveal" data-delay="2">
+        <div class="award-icon aw-blue">📜</div>
+        <span class="award-rank">675 / 990</span>
+        <h3>TOEIC Listening &amp; Reading</h3>
+        <p>IIG Vietnam, Aug 2024. Able to read and write technical and academic documents.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REFERENCES ============ -->
+<section class="section" id="references">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-green">References</span>
+      <h2 class="sec-title">People Who Know My Work</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="ref-wrap">
+      <div class="card ref reveal">
+        <div class="ref-avatar ra-pink">LMH</div>
+        <div class="ref-body">
+          <h3>Assoc. Prof. Le My Ha, Ph.D.</h3>
+          <p class="ref-role">Head of Intelligent Systems Laboratory<br>
+             Vice Dean, Faculty of Electrical and Electronics Engineering</p>
+          <p class="ref-org">Ho Chi Minh City University of Technology and Engineering</p>
+          <a href="mailto:halm@hcmute.edu.vn" class="ref-mail">halm@hcmute.edu.vn</a>
+        </div>
+      </div>
+
+      <div class="card ref reveal" data-delay="1">
+        <div class="ref-avatar ra-blue">MHV</div>
+        <div class="ref-body">
+          <h3>Assoc. Prof. Minh Huan Vo, Ph.D.</h3>
+          <p class="ref-role">Head of Department of Microelectronics Engineering<br>
+             Faculty of Electrical and Electronics Engineering</p>
+          <p class="ref-org">Ho Chi Minh City University of Technology and Engineering</p>
+          <a href="mailto:huanvm@hcmute.edu.vn" class="ref-mail">huanvm@hcmute.edu.vn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEYOND RESEARCH ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-yellow">Off the clock</span>
+      <h2 class="sec-title">Beyond the Research</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+      <p class="sec-sub">Papers are only part of the story. Here's the rest of it.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="card about-visual reveal">
+        <div class="about-frame">
+          <!-- Drop a photo at images/about.jpg (square, ~800x800) and it replaces
+               the illustration below automatically. Football, volleyball, or just
+               you at the lab — anything works. -->
+          <img src="images/about.jpg" alt="Dao Tuan Dat Vo"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+          <div class="about-fallback">
+            <span class="hobby-tile ht-green">⚽</span>
+            <span class="hobby-tile ht-blue">🏐</span>
+            <span class="hobby-tile ht-purple">🎧</span>
+            <span class="hobby-tile ht-pink">💻</span>
+          </div>
+        </div>
+        <span class="sticker sticker-green about-sticker">Off duty</span>
+        <div class="about-quote">"Best debugging idea I ever had came halfway through a football match."</div>
+      </div>
+
+      <div class="about-text">
+        <div class="card reveal" data-delay="1">
+          <h3 class="about-h3">Hi, I'm Dat — nice to meet you</h3>
+          <p>Outside the lab I'm usually on a pitch or a court. Football and volleyball are how I
+             reset after a long week of failed training runs, and being part of a team is genuinely
+             the part I enjoy most — the same reason I like collaborative research.</p>
+          <p>The rest of the time there's music playing. Coding sessions, long train rides, walking
+             around the city — always with headphones on. If we end up working together, expect me to
+             suggest a coffee before we talk architecture.</p>
+        </div>
+
+        <h4 class="sub-h">What I'm into</h4>
+        <div class="power-grid">
+          <div class="card power reveal" data-delay="2"><span class="power-badge b-green">⚽</span><div><strong>Football</strong><p>Weekend matches with friends, whatever the weather.</p></div></div>
+          <div class="card power reveal" data-delay="2"><span class="power-badge b-blue">🏐</span><div><strong>Volleyball</strong><p>The sport that taught me timing beats power.</p></div></div>
+          <div class="card power reveal" data-delay="3"><span class="power-badge b-purple">🎧</span><div><strong>Music</strong><p>Constant soundtrack — coding, commuting, everything.</p></div></div>
+          <div class="card power reveal" data-delay="3"><span class="power-badge b-pink">🤝</span><div><strong>Team work</strong><p>Happiest on a project with people to bounce ideas off.</p></div></div>
+        </div>
+
+        <h4 class="sub-h">How I work with people</h4>
+        <ol class="manifesto">
+          <li class="reveal" data-delay="4"><span class="m-num">1</span><div><strong>Say the hard thing early</strong><p>If an approach isn't working, I'd rather bring it up in week one than week eight.</p></div></li>
+          <li class="reveal" data-delay="4"><span class="m-num">2</span><div><strong>Share the work, share the credit</strong><p>Every paper I've co-authored came out of a group that actually talked to each other.</p></div></li>
+          <li class="reveal" data-delay="5"><span class="m-num">3</span><div><strong>Ask when I don't know</strong><p>Faster than pretending, and I learn more that way.</p></div></li>
+        </ol>
+
+        <!-- ==================================================================
+             SOCIAL LINKS — REPLACE THE href VALUES BELOW WITH YOUR OWN
+             Delete any whole <a>...</a> block for a platform you don't use.
+             ================================================================== -->
+        <div class="card social-card reveal" data-delay="5">
+          <h4 class="social-h">Let's connect</h4>
+          <p class="social-note">Happy to talk research, sport, or music — whichever comes first.</p>
+          <div class="social-row">
+
+            <a href="https://www.facebook.com/tuandatdatd/" target="_blank" rel="noopener" class="social-pill sp-blue">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.09 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.68.24 2.68.24v2.96h-1.51c-1.49 0-1.96.93-1.96 1.89v2.26h3.33l-.53 3.49h-2.8V24C19.61 23.09 24 18.1 24 12.07z"/></svg>
+              Facebook
+            </a>
+
+            <a href="https://www.instagram.com/vdtd1102004/" target="_blank" rel="noopener" class="social-pill sp-pink">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.42.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.42.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.42-.36-1.06-.41-2.23-.06-1.27-.07-1.65-.07-4.85s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.42-.16 1.06-.36 2.23-.41 1.27-.06 1.65-.07 4.85-.07M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.3-1.46.72-2.13 1.38C1.35 2.68.93 3.35.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.3.79.72 1.46 1.38 2.13.67.66 1.34 1.08 2.13 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.3 1.46-.72 2.13-1.38.66-.67 1.08-1.34 1.38-2.13.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.3-.79-.72-1.46-1.38-2.13C21.32 1.35 20.65.93 19.86.63c-.76-.3-1.64-.5-2.91-.56C15.67.01 15.26 0 12 0zm0 5.84a6.16 6.16 0 100 12.32 6.16 6.16 0 000-12.32zm0 10.16a4 4 0 110-8 4 4 0 010 8zm7.85-10.4a1.44 1.44 0 11-2.88 0 1.44 1.44 0 012.88 0z"/></svg>
+              Instagram
+            </a>
+
+            <a href="https://www.linkedin.com/in/vdtd/" target="_blank" rel="noopener" class="social-pill sp-navy">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg>
+              LinkedIn
+            </a>
+
+            <a href="https://www.tiktok.com/@tuandat1102004" target="_blank" rel="noopener" class="social-pill sp-dark">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+              TikTok
+            </a>
+
+            <a href="https://github.com/TuanDat110" target="_blank" rel="noopener" class="social-pill sp-grey">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3z"/></svg>
+              GitHub
+            </a>
+
+          </div>
+        </div>
+        <!-- ================= END SOCIAL LINKS ================= -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-blue">Toolbox</span>
+      <h2 class="sec-title">Technical Skills</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="grid-3">
+      <div class="card skillbox reveal">
+        <div class="skill-icon">🧠</div>
+        <h3>Frameworks &amp; Libraries</h3>
+        <div class="chips">
+          <span class="chip">PyTorch</span><span class="chip">TensorFlow</span><span class="chip">OpenCV</span>
+          <span class="chip">TensorRT</span><span class="chip">LangGraph</span><span class="chip">MediaPipe</span>
+          <span class="chip">ONNX Runtime</span>
+        </div>
+      </div>
+      <div class="card skillbox reveal" data-delay="1">
+        <div class="skill-icon">🔌</div>
+        <h3>Embedded Systems</h3>
+        <div class="chips">
+          <span class="chip">Arduino</span><span class="chip">ESP32</span><span class="chip">Jetson Nano</span>
+          <span class="chip">Raspberry Pi</span><span class="chip">jtop</span><span class="chip">FP16</span>
+        </div>
+      </div>
+      <div class="card skillbox reveal" data-delay="2">
+        <div class="skill-icon">💻</div>
+        <h3>Programming &amp; OS</h3>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">C/C++</span><span class="chip">JavaScript</span>
+          <span class="chip">HTML</span><span class="chip">CSS</span>
+          <span class="chip">Linux (Ubuntu)</span><span class="chip">Windows</span><span class="chip">Git</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="section" id="faq">
+  <div class="container narrow">
+    <div class="sec-head reveal">
+      <span class="tag tag-yellow">Q &amp; A</span>
+      <h2 class="sec-title">Frequently Asked</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="faq-list">
+      <div class="card faq reveal">
+        <button class="faq-q" aria-expanded="false">What is your main research direction?<span class="faq-plus plus-pink">+</span></button>
+        <div class="faq-a"><p>Deep learning architectures for computer vision — specifically skeleton-based sign language and human action recognition. From there I work on making those models efficient enough to run on edge devices.</p></div>
+      </div>
+      <div class="card faq reveal" data-delay="1">
+        <button class="faq-q" aria-expanded="false">Are you open to remote research collaboration?<span class="faq-plus plus-yellow">+</span></button>
+        <div class="faq-a"><p>Yes. I already work with lab members and co-authors over Git, Overleaf and video calls. If you have an idea around vision, distillation or edge deployment, send me an email.</p></div>
+      </div>
+      <div class="card faq reveal" data-delay="2">
+        <button class="faq-q" aria-expanded="false">How much do you work with LLMs?<span class="faq-plus plus-blue">+</span></button>
+        <div class="faq-a"><p>As a supporting tool. The Agentic RAG chatbot in my thesis project is a good example — it solved a real need in the platform, but perception and efficiency research remain my main focus.</p></div>
+      </div>
+      <div class="card faq reveal" data-delay="3">
+        <button class="faq-q" aria-expanded="false">Can you build a full application, not just a model?<span class="faq-plus plus-purple">+</span></button>
+        <div class="faq-a"><p>Yes. My thesis platform covered the model, the web application and the tutoring chatbot. I've also built ESP32 systems with web control, so I'm comfortable across the stack from firmware up.</p></div>
+      </div>
+      <div class="card faq reveal" data-delay="4">
+        <button class="faq-q" aria-expanded="false">What are you looking for next?<span class="faq-plus plus-green">+</span></button>
+        <div class="faq-a"><p>An AI Research position or a Master's/PhD program in computer vision and efficient AI — somewhere models have to run on hardware with real constraints.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag tag-pink">Contact</span>
+      <h2 class="sec-title">Let's Build Something</h2>
+      <svg class="squiggle" viewBox="0 0 60 12"><path d="M2 8 Q 12 0, 22 6 T 42 6 T 58 4" fill="none" stroke-width="3" stroke-linecap="round"/></svg>
+    </div>
+
+    <div class="contact-grid">
+      <div class="card contact-form reveal">
+        <h3>Send a message</h3>
+        <p class="form-note">Fill in the form and hit send — the message lands straight in my inbox.</p>
+
+        <div class="field">
+          <label for="cName">Your name</label>
+          <input type="text" id="cName" placeholder="Jane Doe" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="cEmail">Your email</label>
+          <input type="email" id="cEmail" placeholder="you@example.com" autocomplete="email">
+        </div>
+        <div class="field">
+          <label for="cTopic">Topic</label>
+          <select id="cTopic">
+            <option>Research collaboration 🔬</option>
+            <option>Job opportunity 💼</option>
+            <option>Computer vision project 👁️</option>
+            <option>Edge AI consulting ⚡</option>
+            <option>Something else 👋</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="cMsg">Message</label>
+          <textarea id="cMsg" rows="5" placeholder="Tell me about your idea..."></textarea>
+        </div>
+        <button class="btn btn-pink btn-full" id="sendBtn">Send message →</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+        <p class="form-fallback">Prefer your own email app?
+          <a href="mailto:tuandat1102004@gmail.com">Write to me directly</a>.</p>
+      </div>
+
+      <div class="card contact-info reveal" data-delay="1">
+        <div class="ci-icon">📬</div>
+        <h3>Direct line</h3>
+
+        <div class="ci-block">
+          <span class="ci-label">Email</span>
+          <div class="ci-copy">
+            <a href="mailto:tuandat1102004@gmail.com">tuandat1102004@gmail.com</a>
+            <button class="copy-btn" data-copy="tuandat1102004@gmail.com" aria-label="Copy email address">📋</button>
+          </div>
+        </div>
+
+        <div class="ci-block">
+          <span class="ci-label">Phone</span>
+          <a href="tel:+84942512876">+84 942 512 876</a>
+        </div>
+
+        <div class="ci-block">
+          <span class="ci-label">Location</span>
+          <p>Ho Chi Minh City, Vietnam</p>
+        </div>
+
+        <p class="ci-status">Open to AI Research roles and graduate programs.</p>
+
+        <span class="ci-label">Find me online</span>
+        <div class="socials">
+          <a href="https://github.com/TuanDat110" target="_blank" rel="noopener" class="soc soc-dark" title="GitHub" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3z"/></svg></a>
+          <a href="https://www.linkedin.com/in/vdtd/" target="_blank" rel="noopener" class="soc soc-blue" title="LinkedIn" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+          <a href="https://ieeexplore.ieee.org/document/11474809" target="_blank" rel="noopener" class="soc soc-green" title="IEEE Xplore" aria-label="IEEE Xplore"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h3v16H4V4zm5.5 0h8a4.5 4.5 0 010 9h-4.5v7h-3.5V4zm3.5 3v3h4a1.5 1.5 0 000-3h-4z"/></svg></a>
+          <a href="mailto:tuandat1102004@gmail.com" class="soc soc-pink" title="Email" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4.24l-8 4.99-8-4.99V6l8 5 8-5v2.24z"/></svg></a>
+          <a href="assets/CV_DAT.pdf" download class="soc soc-yellow" title="Download CV" aria-label="Download CV"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6zm2 16H8v-2h8v2zm0-4H8v-2h8v2zm-3-5V3.5L18.5 9H13z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container">
+    <div class="card footer-card">
+      <div class="footer-grid">
+        <div>
+          <a href="#home" class="brand">
+            <span class="brand-badge">D</span>
+            <span class="brand-text">TUANDAT<span class="brand-dot">.</span>AI</span>
+          </a>
+          <p class="footer-desc">AI Research on deep learning architectures and computer vision, with a focus on making models efficient enough to run where resources are tightest.</p>
+          <div class="status-pill"><span class="dot"></span> Open to opportunities</div>
+        </div>
+
+        <div>
+          <h4>Quick links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a><a href="#work">Research</a>
+            <a href="#publications">Papers</a><a href="#services">Expertise</a>
+            <a href="#experience">Experience</a><a href="#education">Education</a>
+            <a href="#references">References</a><a href="#about">Beyond</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+
+        <div>
+          <h4>Say hello</h4>
+          <p class="footer-desc">Got an idea, or just want to talk shop? Drop me a line:</p>
+          <a href="mailto:tuandat1102004@gmail.com" class="footer-email">tuandat1102004@gmail.com</a>
+          <div class="socials">
+            <a href="https://github.com/TuanDat110" target="_blank" rel="noopener" class="soc soc-dark" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .3a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2 0-.4-.5-1.6.2-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 016 0C17.3 4.6 18.3 5 18.3 5c.7 1.6.2 2.8.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0012 .3z"/></svg></a>
+            <a href="https://www.linkedin.com/in/vdtd/" target="_blank" rel="noopener" class="soc soc-blue" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.06 2.06 0 110-4.13 2.06 2.06 0 010 4.13zM7.12 20.45H3.55V9h3.57v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0z"/></svg></a>
+            <a href="mailto:tuandat1102004@gmail.com" class="soc soc-pink" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4.24l-8 4.99-8-4.99V6l8 5 8-5v2.24z"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Dao Tuan Dat Vo. All rights reserved.</span>
+        <span>Built with HTML, CSS &amp; vanilla JS</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
